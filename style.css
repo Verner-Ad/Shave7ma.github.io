@@ -42,3 +42,9 @@ tr#chet{
 tr#nechet{
   background-color: lightgray;
 }  
+
+footer{
+  background-color: black;
+  font-color:white;
+  font-size:24pt;
+}
