@@ -5,6 +5,13 @@ header{
   border: 2px solid black;
 }
 
+nav{
+  floath:both;
+  background-position: top center;
+  background-color: #B53104;
+  border:2px solid black;
+}
+
 body{
   margin:0;
   color: purple;
