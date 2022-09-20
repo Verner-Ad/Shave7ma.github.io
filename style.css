@@ -2,7 +2,7 @@ header{
   background-color: #FADADD;
 }
 
-header, h1{
+header h1{
   font-family: "Arial", Bold;
   font-color:#FADADD;
   font-size:30pt;
