@@ -7,7 +7,7 @@ header{
 }
 
 nav{
-  max-weight: 960px;
+  max-width: 960px;
   text-align:center;
   font-size:18pt;
   floath:both;
@@ -29,7 +29,7 @@ h1{
 }
 
 #weight{
- max-weight: 960px; 
+ max-width: 960px; 
 }
 
 #logo {
