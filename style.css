@@ -5,6 +5,10 @@ header{
   border: 2px solid black;
   text-align:center;
 }
+div{
+  padding-position:center center;
+  max-width: 960px;
+}
 
 h2{
  max-width: 960px;
