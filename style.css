@@ -7,6 +7,7 @@ header{
 }
 
 nav{
+  max-weight: 960px;
   text-align:center;
   font-size:18pt;
   floath:both;
@@ -44,9 +45,10 @@ tr#nechet{
 }  
 
 footer{
+  background-position: bottom center;
   background-color: black;
   font-color:white;
   font-size:24pt;
-  text-align:center;
+  text-align:left;
   margin:0;
 }
