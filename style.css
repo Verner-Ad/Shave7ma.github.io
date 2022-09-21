@@ -8,6 +8,7 @@ header{
 
 nav{
   max-width: 960px;
+  margin:0 auto;
   text-align:center;
   font-size:18pt;
   floath:both;
