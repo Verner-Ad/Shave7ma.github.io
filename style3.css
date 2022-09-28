@@ -1,0 +1,71 @@
+header{
+  background-position: top center;
+  background-color: #F73AD0;
+  margin:0;
+  border: 2px solid black;
+  text-align:center;
+}
+div{
+  padding-position:center center;
+  max-width: 960px;
+  image-position:center left;
+}
+
+h2{
+ max-width: 960px;
+ text-align:center;
+
+}
+nav{
+  max-width: 960px;
+  margin:0 auto;
+  text-align:center;
+  font-size:18pt;
+  floath:both;
+  background-position: top center;
+  background-color: #B53104;
+  border:2px solid black;
+}
+
+body{
+  display: flex;
+  margin:0;
+  color: purple;
+  background-color: #FFFFF0;
+}
+
+h1{
+  font-family: "Arial", Bold;
+  font-size:30pt;
+  font-color: gray;
+}
+
+#weight{
+ max-width: 960px; 
+  margin:0 auto;
+}
+
+#logo {
+ width: 43px;
+ height: 43px;
+ float: left;
+ margin: 10px;
+ border: 1px solid gray;
+}
+
+tr#chet{
+ background-color: lightblue;
+}
+
+tr#nechet{
+  background-color: lightgray;
+}  
+
+footer{
+  background-position: bottom center;
+  background-color: black;
+  font-color:white;
+  font-size:24pt;
+  text-align:left;
+  margin:0;
+}
