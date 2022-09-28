@@ -35,6 +35,7 @@ body{
 
 body div{
   display: flex;
+  flex-direction: column;
 }
 
 h1{
