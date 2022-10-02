@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Задание 1</title>
+  </head>
+
+  <body>
+    <h2 id="list">Список ссылок</h2>
+    <ol>
+      <li>
+        <a href="http://example.com"
+          >Абсолютная гиперссылка на главную страницу сайта example.com</a
+        >
+      </li>
+      <li>
+        <a href="https://example.com"
+          >Абсолютная гиперссылка на главную сайта example.com в протоколе
+          https</a
+        >
+      </li>
+      <li>
+        <a href="ftp://example.com/file.txt"
+          >Ссылка на файл на севрере FTP без авторизации</a
+        >
+      </li>
+      <li>
+        <a href="ftp://user:112233@example.com/file.txt"
+          >Ссылка на файл на сервере FTP с авторизацией</a
+        >
+      </li>
+      <li>
+        <a href="http://example.com/#about"
+          >Ссылка на фрагмент страницы некоторого сайта</a
+        >
+      </li>
+      <li>
+        <a href="#about">Ссылка на фрагмент текущей страницы</a>
+      </li>
+      <li>
+        <a href="http://example.com?parameter1=p1&parameter2=p2"
+          >Ссылка с двумя параметрами в URL</a
+        >
+      </li>
+      <li>
+        Список ссылок основной навигации сайта с подписями title
+        <ul>
+          <li>
+            <a href="#list" title="Список ссылок">Список ссылок</a>
+          </li>
+          <li>
+            <a href="#form" title="Форма">Форма</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a>Ссылка без href</a>
+      </li>
+      <li>
+        <a href="">Ссылка с пустым href</a>
+      </li>
+      <li>
+        <a href="http://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a>
+      </li>
+      <li>
+        <noindex>
+          <a href="">Ссылка, запрещенная для индексации поисковиками</a>
+        </noindex>
+      </li>
+      <li>
+        <p>
+          Конекстная
+          <a href="http://example.com"> ссылка </a>
+          в тексте абзаца
+        </p>
+      </li>
+      <li>
+        Ссылка-изображение<br />
+        <a href="http://example.com">
+          <img src="img.jpg" alt="Изображение с ссылкой" />
+        </a>
+      </li>
+      <li>
+        Ссылки из прямоугольных и круглых областей картинки<br/>
+        <img src="img.jpg" alt="Изображение с ссылками внутри" width="100px" height="100px"/>
+        <map name="Map">
+          <area shape="rect" coords="0,1,100,25" href="http://example.com/index1.html" alt="index1" title="Верхний прямоугольник">
+          <area shape="rect" coords="0,26,100,50" href="http://example.com/index2.html" alt="index2" title="Нижний прямоугольник">
+          <area shape="circle" coords="50,75,24" href="http://example.com/index3.html" alt="index3" title="Круг">
+        </map>
+      </li>
+    </ol>
+  </body>
+</html>
