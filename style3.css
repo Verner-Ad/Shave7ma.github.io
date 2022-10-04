@@ -20,7 +20,7 @@
   order: 0;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 960px) {
   #main-aside-wrapper {
     display: flex;
     flex-direction: column;
