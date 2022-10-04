@@ -1,208 +1,251 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <link rel="stylesheet" href="style3.css">
+  <head>
+    <meta charset="UTF-8" />
     <title>Задание 2</title>
-</head>
-<body>
-    <header>
-        <div id="weight">
-            <img id="logo" src="image.jpg" alt="Логотип сайта">
-            <h1>Сайт Белякова Тимофея</h1>
-        </div>
-    </header>
-    <nav>
-        <a href="#list">Список</a>
-         | 
-        <a href="#table">Таблица</a>
-         | 
-        <a href="#form">Форма</a>
-    </nav>
-    <div>
-    <a name="head_1" id="weight">
-        <h2 id="list">Список ссылок</h2>
-    </a>
-    <ol id="weight">
-        <li>
-            <a href="http://example.com/">Абсолютная гиперссылка на главную страницу сайта</a>
-        </li>
-        <li>
-            <a href="https://example.com/">Абсолютная на главную сайта в протоколе https</a>
-        </li>
-        <li>
-            <a href="ftp://example.com/files.txt">Ссылка на файл на сервере FTP без авторизации</a>
-        </li>
-        <li>
-            <a href="ftp://user:203@2example.com/files.txt">Ссылку на файл на сервере FTP с авторизацией</a>
-        </li>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
 
+  <body>
+    <header>
+      <div>
+        <img src="img.jpg" alt="Логотип сайта" id="logo" />
+        <p>Сайт Тимофея Белякова</p>
+      </div>
+    </header>
+
+    <nav id="nav-aside-wrapper">
+      <a href="#list">Список</a>
+
+      <a href="#table">Таблица</a>
+
+      <a href="#form">Форма</a>
+    </nav>
+
+    <main id="main-aside-wrapper">
+      <ol>
+        <h2 id="list">Список ссылок</h2>
         <li>
-            <a href="http://example.com/#top">Ссылка на фрагмент страницы некоторого сайта</a>
+          <a href="http://example.com"
+            >Абсолютная гиперссылка на главную страницу сайта example.com</a
+          >
         </li>
         <li>
-            <a href="#top">Ссылка на фрагмент текущей страницы</a>
+          <a href="https://example.com"
+            >Абсолютная гиперссылка на главную сайта example.com в протоколе
+            https</a
+          >
         </li>
         <li>
-            <a href="http://example.com?parameter1=p1&amp;parameter2=p2">Ссылка с двумя параметрами в URL</a>
+          <a href="ftp://example.com/file.txt"
+            >Ссылка на файл на севрере FTP без авторизации</a
+          >
         </li>
         <li>
-            Список ссылок основной навигации сайта с подписями title
-            <ul>
-                <li>
-                    <a href="#head_1" title="Нумерованный список гиперссылок">Нумерованный список гиперссылок</a>
-                </li>
-                <li>
-                    <a href="#head_2" title="Форма">Форма</a>
-                </li>
-            </ul>
+          <a href="ftp://user:112233@example.com/file.txt"
+            >Ссылка на файл на сервере FTP с авторизацией</a
+          >
         </li>
         <li>
-            <a>Ссылка без href</a></li>
-        <li>
-            <a href="">Ссылка с пустым href</a></li>
-        <li>
-            <a href="http://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
-        <li>
-            <a href="http://example.com" rel="nofollow">
-                <!--noindex-->Ссылка, запрещенная для индексации поисковиками
-                <!--/noindex-->
-            </a></li>
-        <li>
-            <p>Контекстная <a href="http://example.com">ссылка</a> в тексте абзаца</p>
-        </li>
-        <li>Ссылка-изображение<br>
-            <a href="http://example.com"><img src="image.jpg" width="224" height="168" alt="Описание картинки"></a>
+          <a href="http://example.com/#about"
+            >Ссылка на фрагмент страницы некоторого сайта</a
+          >
         </li>
         <li>
-            <a href="page">Относительная ссылка на страницу в текущем каталоге</a>
+          <a href="#about">Ссылка на фрагмент текущей страницы</a>
         </li>
         <li>
-            <a href="/about/page">Относительная ссылка на страницу в каталоге about</a>
+          <a href="http://example.com?parameter1=p1&parameter2=p2"
+            >Ссылка с двумя параметрами в URL</a
+          >
         </li>
         <li>
-            <a href="../page">Относительная ссылка на страницу в каталоге уровнем выше
-                текущего</a>
+          Список ссылок основной навигации сайта с подписями title
+          <ul>
+            <li>
+              <a href="#list" title="Список ссылок">Список ссылок</a>
             </li>
-        <li>
-            <a href="../../page">Относительная ссылка на страницу в каталоге двумя уровнями
-                выше текущего</a>
+            <li>
+              <a href="#form" title="Форма">Форма</a>
             </li>
-        <li>
-            <a href="/">Сокращенная ссылка на главную</a>
+          </ul>
         </li>
         <li>
-            <a href="/catalog/page">Сокращенная ссылка на внутреннюю</a>
+          <a>Ссылка без href</a>
         </li>
-    </ol>
-        </div>
-    
-    <div><a name="head_1" id="weight">
+        <li>
+          <a href="">Ссылка с пустым href</a>
+        </li>
+        <li>
+          <a href="http://example.com" rel="nofollow"
+            >Ссылка, по которой запрещен переход поисковикам</a
+          >
+        </li>
+        <li>
+          <noindex>
+            <a href="">Ссылка, запрещенная для индексации поисковиками</a>
+          </noindex>
+        </li>
+        <li>
+          <p>
+            Конекстная
+            <a href="http://example.com"> ссылка </a>
+            в тексте абзаца
+          </p>
+        </li>
+        <li>
+          Ссылка-изображение<br />
+          <a href="http://example.com">
+            <img src="imaage.jpg" alt="Изображение с ссылкой" />
+          </a>
+        </li>
+        <li>
+          Ссылки из прямоугольных и круглых областей картинки<br />
+          <img
+            src="imaage.jpg"
+            alt="Изображение с ссылками внутри"
+            width="600px"
+            height="600px"
+            usemap="#FirstMap"
+          />
+          <map name="FirstMap">
+            <area
+              shape="rect"
+              coords="0,1,600,150"
+              href="http://example.com/index1.html"
+              alt="index1"
+              title="Верхний прямоугольник"
+            />
+            <area
+              shape="rect"
+              coords="0,151,600,300"
+              href="http://example.com/index2.html"
+              alt="index2"
+              title="Нижний прямоугольник"
+            />
+            <area
+              shape="circle"
+              coords="300,450,149"
+              href="http://example.com/index3.html"
+              alt="index3"
+              title="Круг"
+            />
+          </map>
+        </li>
+        <li>
+          <a href="about">Относительная ссылка в текущем каталоге</a>
+        </li>
+        <li>
+          <a href="./about"
+            >Относительная ссылка в каталоге уровнем выше текущего</a
+          >
+        </li>
+        <li>
+          <a href="../about"
+            >Относительная ссылка в каталоге двумя уровнями выше</a
+          >
+        </li>
+        <li>
+          <a href="/">Сокращенная ссылка на главную</a>
+        </li>
+        <li>
+          <a href="/about/contacts">Сокращенная ссылка на внутреннюю</a>
+        </li>
+      </ol>
+      <div id="table-style">
         <h2 id="table">Таблица</h2>
-    </a>
-    <table id="weight">
-      <tbody>
-          <tr id="nechet">
+        <table>
+          <tbody>
+            <tr id="nechet">
               <th>Колонка 1</th>
               <th>Колонка 2</th>
               <th>Колонка 3</th>
-      </tr>
-      <tr id="chet">
-        <td colspan="3">Ячейка 11 объединенная с 12 и 13</td>
-      </tr>
-      <tr id="nechet">
-        <td>Ячейка 21</td>
-        <td>Ячейка 22</td>
-          <td>Ячейка 23</td>
-      </tr>
-          <tr id="chet">
+            </tr>
+            <tr id="chet">
+              <td colspan="3">Ячейка 11 объединенная с 12 и 13</td>
+            </tr>
+            <tr id="nechet">
+              <td>Ячейка 21</td>
+              <td>Ячейка 22</td>
+              <td>Ячейка 23</td>
+            </tr>
+            <tr id="chet">
               <td>Ячейка 31</td>
               <td colspan="2">Ячейка 32 объединенная с 33</td>
-              </tr>
-          <tr id="nechet">
+            </tr>
+            <tr id="nechet">
               <td colspan="2">Ячейка 41 обьединенная с 42</td>
               <td rowspan="2">Ячейка 43 обьединенная с 53</td>
-          </tr>
-          <tr id="chet"> 
+            </tr>
+            <tr id="chet">
               <td>Ячейка 51</td>
               <td>Ячейка 52</td>
-          </tr>
-    </tbody></table></div>
-    
-    <div><a name="head_1" id="weight">
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <form action="URL_отправки_данных" method="POST">
         <h2 id="form">Форма</h2>
-    </a>
-    <form id="weight">
-        <label> Имя:  
-            <input placeholder="Введите имя">
+        <label> Имя: <input placeholder="Введите имя" name="name" /> </label>
+        <br />
+        <label>
+          E-mail:
+          <input type="email" name="e_mail" placeholder="Введите e-mail" />
         </label>
-        <br>
+        <br />
+        <label> Дата рождения: <input type="date" name="data" /> </label>
+        <br />
+        Пол:
         <label>
-            Е-mail:  
-            <input type="email" placeholder="Введите вашу почту">
-        </label>
-        <br>
-        <label>
-            Дата рождения:  
-            <input type="date">
-        </label>  
-        <p> Пол:</p>
-        <label>
-            <input type="radio" value="значение1" name="группа_1">
-            М
+          <input type="radio" value="Значение1" name="Группа1" /> М
         </label>
         <label>
-            <input type="radio" value="значение2" name="группа_1">
-            Ж
+          <input type="radio" value="Значение2" name="Группа1" /> Ж
         </label>
-        <br> <p> Количество конечностей:</p>
+        <br />
+        Количество конечностей:
         <label>
-            <input type="radio" value="значение2" name="группа_2">
-            1
-        </label> <br>
-        <label>
-            <input type="radio" value="значение2" name="группа_2">
-            2
-        </label> <br>
-        <label>
-            <input type="radio" value="значение2" name="группа_2">
-            3
-        </label> <br>
-        <label>
-            <input type="radio" value="значение2" name="группа_2">
-            4
-        </label> <br>
-        <label>
-            <input type="radio" value="значение2" name="группа_2">
-            5
-        </label> <br>
-        <label>
-            Сверхспособности:
-            <br>
-            <select multiple="multiple" name="listbox">
-              <option value="Значение1">Бессмертие</option>
-              <option value="Значение2">Прохождение сквозь стены</option>
-              <option value="Значение3">Левитация</option>
-              <option value="Значение4">Невидимость</option>
-              <option value="Значение5">Ночное зрение</option>
-            </select>
-        </label> <br>
-        <label>
-            Биография:
-            <textarea placeholder="Введите текст"></textarea>
-        </label> <br>
-        <label>
-            <input type="checkbox">
-            С контрактом ознакомлен(а)
-        </label> <br>
-        <label>
-            Кнопка "отправить" <br>
-            <input type="submit" value="Отправить">
+          <input type="radio" value="Значение3" name="Группа2" /> 1
         </label>
+        <label>
+          <input type="radio" value="Значение4" name="Группа2" /> 2
+        </label>
+        <label>
+          <input type="radio" value="Значение5" name="Группа2" /> 3
+        </label>
+        <label>
+          <input type="radio" value="Значение6" name="Группа2" /> 4
+        </label>
+        <label>
+          <input type="radio" value="Значение7" name="Группа2" /> 5
+        </label>
+        <br />
+        <label>
+          Сверхспособности:
+          <select multiple="multiple" name="listbox">
+            <option value="Значение1">Бессмертие</option>
+            <option value="Значение2">Прохождение сквозь стены</option>
+            <option value="Значение3">Левитация</option>
+            <option value="Значение4">Невидимость</option>
+            <option value="Значение5">Ночное зрение</option>
+          </select>
+        </label>
+        <br />
+        <label>
+          Биография:
+          <textarea placeholder="Введите текст" name="textarea"></textarea>
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" checked="checked" name="check1" />С контрактом
+          ознакомлен(а)
+        </label>
+        <br />
+        <input type="submit" value="Отправить" />
+      </form>
+    </main>
 
-    </form></div>
-
-<footer>
-    (c)Тимофей Беляков
-</footer>
-
-</body>
+    <footer>(c)Тимофей Беляков</footer>
+  </body>
+</html>
