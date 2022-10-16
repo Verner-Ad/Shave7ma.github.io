@@ -93,9 +93,10 @@ main {
 .listtt {
   border-radius: 30px;
   border: 2px solid black;
-  padding-left: 30px;
+  padding-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-top: 10px;
 }
 
 
