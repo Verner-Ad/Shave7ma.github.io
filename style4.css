@@ -1,0 +1,24 @@
+:root {
+  --color0: rgb(237, 237, 217);
+  --color1: rgb(183, 75, 93);
+  --color2: rgb(171, 62, 222);
+  --color3: rgb(164, 157, 157);
+}
+
+header,
+footer {
+  border: 2px solid black;
+  background-color: var(--color3);
+}
+
+.bccolor0 {
+  background-color: var(--color0);
+}
+
+.color1 {
+  color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+}
