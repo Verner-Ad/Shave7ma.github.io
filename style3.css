@@ -90,7 +90,7 @@ main {
   background-position: center center;
 }
 
-body ol {
+.listtt {
   border-radius: 30px;
   border: 2px solid black;
   padding-left: 30px;
@@ -98,9 +98,6 @@ body ol {
   padding-top: 10px;
 }
 
-body ol h2 {
-  margin: 0px 0px 10px 0px;
-}
 
 body form {
   border-radius: 30px;
@@ -122,19 +119,12 @@ footer {
   font-size: 40px;
 }
 
-#chet {
+.chet {
   background-color: blueviolet;
 }
 
-#nechet {
+.nechet {
   background-color: rgb(106, 79, 131);
-}
-
-#table-style {
-  border-radius: 30px;
-  border: 2px solid black;
-  padding: 10px;
-  margin: 16px 0px 16px 0px;
 }
 
 body h2 {
@@ -146,3 +136,9 @@ body h2 {
   border: 1px solid gray;
 }
 
+.tableee {
+  border-radius: 30px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 16px 0px 16px 0px;
+}
