@@ -8,16 +8,18 @@
   flex-direction: column;
 }
 
-#main-aside-wrapper ol {
+#main-aside-wrapper div.listtt {
   order: -1;
+  margin-bottom:10px;
 }
 
-#main-aside-wrapper div {
+#main-aside-wrapper div.tableee {
   order: 1;
 }
 
 #main-aside-wrapper form {
   order: 0;
+  margin-bottom:0px;
 }
 
 @media screen and (min-width: 1020px) {
@@ -35,11 +37,11 @@
     margin: 0px 10px 0px 10px;
   }
 
-  #main-aside-wrapper ol {
+  #main-aside-wrapper div.listtt {
     order: -1;
   }
 
-  #main-aside-wrapper div {
+  #main-aside-wrapper div.tableee {
     order: 0;
   }
 
@@ -142,4 +144,8 @@ body h2 {
   border: 2px solid black;
   padding: 10px;
   margin: 16px 0px 16px 0px;
+}
+
+.button{
+  margin-bottom:10px;
 }
