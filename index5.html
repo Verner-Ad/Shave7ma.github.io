@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Задание 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script defer src="script5.js"></script>
+    <link rel="stylesheet" href="style5.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="hdiv">
+        <p>Канцелярский магазинчик</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <form name="calculator" onsubmit="return false">
+          <div class="row">
+            <div class="col-2">Наименование товара</div>
+            <div class="col-1">Цена товара</div>
+            <div class="col-1">Количество</div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Ручка (акция!)</div>
+            <div class="col-1">
+              <input name="price0" type="text" placeholder="9" />
+            </div>
+            <div class="col-1">
+              <input name="count0" type="text" placeholder="В наличии: 3" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Ручка</div>
+            <div class="col-1">
+              <input name="price1" type="text" placeholder="15" />
+            </div>
+            <div class="col-1">
+              <input name="count1" type="text" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Карандаш</div>
+            <div class="col-1">
+              <input name="price2" type="text" placeholder="9" />
+            </div>
+            <div class="col-1">
+              <input name="count2" type="text" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Тетрадь А5</div>
+            <div class="col-1">
+              <input name="price3" type="text" placeholder="39" />
+            </div>
+            <div class="col-1">
+              <input name="count3" type="text" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Тетрадь А4</div>
+            <div class="col-1">
+              <input name="price4" type="text" placeholder="99" />
+            </div>
+            <div class="col-1">
+              <input name="count4" type="text" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">Корректор</div>
+            <div class="col-1">
+              <input name="price5" type="text" placeholder="75" />
+            </div>
+            <div class="col-1">
+              <input name="count5" type="text" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <button onclick="calc()">Рассчитать</button>
+            </div>
+          </div>
+        </form>
+        <div id="result"></div>
+      </div>
+    </main>
+  </body>
+</html>
