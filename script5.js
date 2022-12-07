@@ -44,4 +44,4 @@ window.addEventListener("DOMContentLoaded", function (event) {
     console.log("DOM fully loaded and parsed");
   });
 let btnn=document.getElementById("btn");
-btnn.onclick=calc;
+btnn.addEventListener("click",calc);
