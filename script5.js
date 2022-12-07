@@ -35,7 +35,7 @@ function calc() {
     p4.value * c4.value +
     p5.value * c5.value;
   let test=true;
-  if (p0.value<0||p1.value<0||p2.value<0||p3.value<0||p4.value<0||p5.value<0||c0.value<0||c1.value<0||c2.value<0||c3.value<0||c4.value<0||c5.value<0) test=false
+  if (p0.value<0||p1.value<0||p2.value<0||p3.value<0||p4.value<0||p5.value<0||c0.value<0||c1.value<0||c2.value<0||c3.value<0||c4.value<0||c5.value<0) test=false;
   let result = document.getElementById("result");
   if (isNaN(res)||test==false) result.innerHTML = "Что-то пошло не так...";
   else {
