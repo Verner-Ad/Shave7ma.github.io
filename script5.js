@@ -1,6 +1,6 @@
 "use strict";
+let name = prompt("Как вас зовут?");
 function calc() {
-  let name = prompt("Как вас зовут?");
   let form = document.forms.calculator;
   let p0 = form.elements.price0;
   if (p0.value == 0) p0.value = 9;
@@ -43,4 +43,5 @@ function calc() {
 window.addEventListener("DOMContentLoaded", function (event) {
     console.log("DOM fully loaded and parsed");
   });
-btn.onclick=calc;
+let btnn=document.getElementById("btn");
+btnn.onclick=calc;
