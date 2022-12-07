@@ -39,8 +39,8 @@ function calc() {
   else {
     result.innerHTML = `${name || "Аноним"}, с вас ${res} рублей.`;
   }
-  window.addEventListener("DOMContentLoaded", function (event) {
+}
+window.addEventListener("DOMContentLoaded", function (event) {
     console.log("DOM fully loaded and parsed");
   });
-}
 btn.addEventListener("cilck",calc());
