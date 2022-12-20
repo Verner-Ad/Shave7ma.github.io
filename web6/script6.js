@@ -76,7 +76,6 @@ function getPrices() {
       feather: 30,
     },
     prodProperty: {
-      a4: 50,
       material: 20,
       sale: -30,
     },
